@@ -29,7 +29,7 @@ Sign in to the AWS Management Console and open the [Amazon RDS console](https://
 - Select **Amazon Aurora PostgreSQL-Compatible Edition** under Edition
 
 <p align="left">
-  <img width="500" height="300" src="https://github.com/aws-samples/babelfish-for-amazon-aurora-postgresql-demo/blob/main/img/aurora-cfg.png">
+  <img width="500" height="350" src="https://github.com/aws-samples/babelfish-for-amazon-aurora-postgresql-demo/blob/main/img/aurora-cfg.png">
 </p>
 
 - Under available versions select Aurora PostgreSQL (Compatible with PostgreSQL 13.4). Note that Babelfish is available for PostgreSQL 13.4 or higher
