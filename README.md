@@ -143,7 +143,7 @@ Let's run another query (to list the available databases instances in the cluste
 	              |          |          |             |             | postgres=CTc/postgres
 	(5 rows)
 
-### Connecting to Amazon Aurora postgreSQL using MS SQL server client (sqlcmd)
+## Step 3: Connecting to Amazon Aurora postgreSQL using MS SQL server client (sqlcmd)
 
 Now we are going to connect to the same postgresql cluster using a SQL server client sqlcmd and run SQL queries.
 
@@ -153,7 +153,7 @@ Now we are going to connect to the same postgresql cluster using a SQL server cl
 	-------------------------------------------------------------------------------------------------------------------------------- ----------- ------------
 	dbo                                                                                                                                    22397        22394
 
-### Creating a database instance
+## Step 4: Testing - Running SQL queries
 
 Now let's create a new db instance. This is done using the command below:
 
@@ -184,7 +184,7 @@ And finally let's populate the table with data and run a select query to retriev
 	----------- ------------------------------ --------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	          1 James Hunn                                 1000.0000 20 London street  
 
-### Connecting to Amazon Aurora PostgreSQL using a python program
+## Step 5: Connecting to Amazon Aurora PostgreSQL using a python program
 
 Let's use the db_conn.py which basically is a small python program that connects to our database cluster, run a select query and display the result to the terminal.
 
