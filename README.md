@@ -35,7 +35,7 @@ Sign in to the AWS Management Console and open the [Amazon RDS console](https://
 - Under available versions select Aurora PostgreSQL (Compatible with PostgreSQL 13.4). Note that Babelfish is available for PostgreSQL 13.4 or higher
 
 <p align="left">
-  <img width="500" height="350" src="https://github.com/aws-samples/babelfish-for-amazon-aurora-postgresql-demo/blob/main/img/aurora-cfg-ver.png">
+  <img width="450" height="300" src="https://github.com/aws-samples/babelfish-for-amazon-aurora-postgresql-demo/blob/main/img/aurora-cfg-ver.png">
 </p>
 
 For the purpose of this demo only we will make the cluster public but make sure to only allow Internet traffic on TCP ports 5432 and 1433 from your computer IP address. This is done in the security group either from the [AWS console](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_SecurityGroups.html) or from the command line
