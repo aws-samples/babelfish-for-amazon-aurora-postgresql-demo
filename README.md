@@ -61,7 +61,9 @@ Also allow ingress traffic for the babelfish TDS port on 1433 to accept SQL serv
 Before we can connnect to the cluster, we need to install the PostgreSQL client app also known as psql. As I'm using MacOS, I will run the following commands:
 
 `brew doctor`
+
 `brew update`
+00000
 `brew install libpq`
 
 Please note that libpq does not install itself in `/usr/local/bin` so  you would have to create a symlink to the directory by running the command below:
