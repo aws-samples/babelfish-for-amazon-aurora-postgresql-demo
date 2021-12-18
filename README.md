@@ -14,7 +14,9 @@ In this demo, we are going to show how the Babelfish for Aurora PostgreSQL new c
 
 In this demo, we will show how to connect to Amazon Aurora PostgreSL cluster using a postgreSLQ client app psql and run queries again a postgres DB instance. We will then connect to the same cluster using the Babelfish capability of Amazon aurora with PostgreSQL-compatibility edition and run queries (create database, table and insert data to a table). The following diagram depicts a high level architecture of our demo environment.
 
-![alt text](./img/aurorababelfish.png)
+<p align="left">
+  <img width="500" height="350" src="https://github.com/aws-samples/babelfish-for-amazon-aurora-postgresql-demo/blob/main/img/aurorababelfish.png">
+</p>
 
 ## Step 1: Create an Amazon Aurora with PostgreSQL-compatibility edition cluster with Babelfish enabled
 
