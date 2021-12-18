@@ -230,7 +230,9 @@ Remember to clean up the environment to free up resources!
 	                                                                                                                                                          
 ## Conclusion
 
-In this demo we showed how an application currently running on SQL Server could also run directly on Amazon Aurora with PostgreSQL-Compatibility edition with a fraction of the work required, compared to a traditional migration. Babelfish understands the SQL Server wire-protocol (TDS) and T-SQL, the Microsoft SQL Server query language, so you don't have to switch database drivers or re-write all of your application queries.You can connect to Babelfish by changing your SQL Server-based applications to point to the Babelfish TDS port on an Aurora PostgreSQL cluster, after turning Babelfish on
+In this demo we showed how an application currently running on SQL Server could also run directly on Amazon Aurora with PostgreSQL-Compatibility edition with a fraction of the work required, compared to a traditional migration. Babelfish understands the SQL Server wire-protocol (TDS) and T-SQL, the Microsoft SQL Server query language, so you don't have to switch database drivers or re-write all of your application queries.You can connect to Babelfish by changing your SQL Server-based applications to point to the Babelfish TDS port on an Aurora PostgreSQL cluster, after turning Babelfish on.
+
+For more information on working with Babelfish for Aurora PostgreSQL, please check the [online documentation](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/babelfish.html).
 
 ## Security
 
