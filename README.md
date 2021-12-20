@@ -225,8 +225,8 @@ Also ensure that you replace the placeholders (REPLACE_ME_WITH_YOUR_XXX in the d
 
 After completing the above step, you can now run the program which should return the results of the query to the console.
 
-`$ python3 db_conn.py`
-(1, 'James Hunn', Decimal('1000.0000'), '20 London street')
+	$ python3 db_conn.py
+	(1, 'James Hunn', Decimal('1000.0000'), '20 London street')
 		
 Remember to clean up the environment to free up resources!
 	                                                                                                                                                          
