@@ -57,12 +57,17 @@ Also allow ingress traffic for the babelfish TDS port on 1433 to accept SQL serv
     --cidr <REPLACE_ME_WITH_YOUR_IP_ADDR>`
  
  - In **Additional Configuration**, select the checkbox Turn on Babelfish under **Babelfish settings -new** as shown in the screenshot below.
-
- ![alt text](./img/babelfish-cfg.png)
+ 
+ <p align="left">
+  <img width="500" height="350" src="https://github.com/aws-samples/babelfish-for-amazon-aurora-postgresql-demo/blob/main/img/babelfish-cfg.png">
+</p>
  
  Leave the Babelfish configuration settings as default as shown in the image below.
  
- ![alt text](./img/babelfish-cfg-1.png)
+ 
+  <p align="left">
+  <img width="500" height="350" src="https://github.com/aws-samples/babelfish-for-amazon-aurora-postgresql-demo/blob/main/img/babelfish-cfg-1.png">
+</p>
 
 ## Step 2: Connecting to Amazon Aurora postgreSQL using a postgres client (psql)
 
