@@ -1,7 +1,7 @@
 
 
 ## Introduction
-In this demo, we are going to show how the Babelfish for Aurora PostgreSQL new capability for Amazon Aurora with PostgreSQL-Compatibility edition works. Babelfish for Aurora PostgreSQL enables Amazon Aurora PostgreSQL-Compatible Edition to understand queries from applications written for Microsoft SQL Server. 
+In this demo, we are going to show how the Babelfish for Aurora PostgreSQL new capability for Amazon Aurora with PostgreSQL-Compatibility edition works. [Babelfish for Aurora PostgreSQL](https://aws.amazon.com/about-aws/whats-new/2021/10/babelfish-aurora-postgresql-now-generally-available/) enables Amazon Aurora PostgreSQL-Compatible Edition to understand queries from applications written for Microsoft SQL Server.
 
 ## Prerequisites
 - AWS CLI
